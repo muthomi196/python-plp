@@ -1,0 +1,24 @@
+Usage
+To use the script, simply run it and enter the base and exponent values when prompted. The script will then print whether the result is greater than 5000 or not.
+
+Example
+Suppose you want to check whether 2 raised to the power of 10 is greater than 5000. Here's how you can use the script:
+
+Save the script to a file named power_checker.py.
+Open a terminal and navigate to the directory where the file is saved.
+Run the script by typing python power_checker.py.
+Enter the base value (2) when prompted.
+Enter the exponent value (10) when prompted.
+The script will print "2 raised to the power of 10 is greater than 5000."
+Code Structure
+The script contains two functions:
+
+large_power(base, exponent): This function calculates the result of raising the base to the power of exponent and returns True if the result is greater than 5000, and False otherwise.
+main(): This function contains the main logic of the script. It requests the user to input the base and exponent values, converts them to integers, and passes them to the large_power function. Finally, it prints the result of the function.
+The script also includes a check for __name__ to ensure that the main function is only called when the script is run directly. This is a common idiom in Python that allows the script to be imported as a module in other scripts without executing the main function.
+
+License
+This script is released under the MIT License. See the LICENSE file for details.
+
+Contributing
+Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
